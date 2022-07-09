@@ -11,14 +11,29 @@
 /* Mobile  */
 
 @media (max-width: 739px) {
+    .s-col-full {
+        width: 100%;
+    }
     #nav {
         display: block;
     }
     #nav li {
         display: block;
     }
+    #nav li a {
+        padding: 1px 24px;
+    }
     #nav>li:first-child {
         display: inline-block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 41px;
     }
     #header {
         overflow: hidden;
@@ -28,5 +43,8 @@
     }
     #header .mobile-menu-btn {
         display: block;
+    }
+    #content .member-img {
+        width: 60%;
     }
 }
